@@ -21,5 +21,10 @@
 
  ## Instructions
    1. **Cloner le dépot**
-      git clone https://github.com/nom-utilisateur/nom-repo.git
+      git clone https://github.com/aemetil/South-Village-Run-Club.git
    2. **Ouvrir le fichier** index.html dans un navigateur pour visualiser la page.
+
+ ## Structure du fichier
+  - index.html : Fichier principal HTML contenant la structure et les sections de la page.
+  - ressources/styles.css : Fichier CSS qui comprend le style et les règles de mise en page, ainsi que les requêtes multimédias.
+  - ressources/images : Fichier contenant les images utilisées.
