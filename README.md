@@ -28,3 +28,7 @@
   - index.html : Fichier principal HTML contenant la structure et les sections de la page.
   - ressources/styles.css : Fichier CSS qui comprend le style et les règles de mise en page, ainsi que les requêtes multimédias.
   - ressources/images : Fichier contenant les images utilisées.
+
+  ## Exemples de modifications
+   - **Modification des images en fonction des écrans** : Les images passent à 100% de largeur sur les écrans inférieurs à 768px pour une meilleure lisibilité.
+   - **Texte** : Les titres et sous-titres s'ajustent pour offrir une meilleure lisibilité et hiérarchie visuelle sur mobile
