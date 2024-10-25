@@ -31,4 +31,7 @@
 
   ## Exemples de modifications
    - **Modification des images en fonction des écrans** : Les images passent à 100% de largeur sur les écrans inférieurs à 768px pour une meilleure lisibilité.
-   - **Texte** : Les titres et sous-titres s'ajustent pour offrir une meilleure lisibilité et hiérarchie visuelle sur mobile
+   - **Texte** : Les titres et sous-titres s'ajustent pour offrir une meilleure lisibilité et hiérarchie visuelle sur mobile.
+
+ ## Crédit
+   Les images utilisées proviennent d'Unsplash et sont libres de droit.
