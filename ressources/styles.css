@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px; /* taille de base pour 1rem */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Quicksand", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+/* Styles de la navigation */
+.nav-content {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 100%;
+    background-color: #3A2558;
+    padding: 10px 0;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-start;
+    padding: 0; /* Supprimer le padding par défaut */
+}
+
+nav li {
+    margin-left: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: aliceblue;
+    transition: color 0.3s ease; /* Transition pour le hover */
+}
+
+nav a:hover {
+    color: yellow;
+    text-decoration: underline;
+}
+
+/* Styles de la section d'introduction */
+.intro {
+    background-color: #573B79;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.intro h1 {
+    background-color: #8D71B4;
+    width: 100%;
+    font-size: 2.5rem;
+    padding: 30px 0;
+    margin-top: 80px;
+    color: aliceblue;
+
+}
+
+/* Styles de la section résumé */
+.summary {
+    background-color: #573B79;
+    padding: 20px;
+    color: aliceblue;
+}
+
+.summary a {
+    color: aliceblue;
+}
+
+.summary a:hover {
+    color: yellow;
+    text-decoration: none;
+}
+
+h2 {
+    color: yellow;
+    padding: 20px 0 10px;
+}
+
+
+/* Styles de la section témoignages */
+.testimonials {
+    background-color: #8D71B4;
+    padding: 20px;
+}
+
+.testimonials p {
+    color: aliceblue;
+}
+
+.photos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+.photos, 
+.meetup {
+    background-color: #573B79;
+    padding: 20px;
+}
+
+.photos img {
+    width: 20em;
+}
+
+.meetup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.meetup img {
+    width: 80%;
+    height: auto;
+}
+
+/* Styles du titres de la section meetup */
+.meetup h2 {
+    text-align: center;
+}
+
+/* Media Queries pour la réactivité */
+@media (max-width: 1024px) {
+    .photos {
+        flex-direction: column;
+    }
+
+    .photos img, 
+    .meetup img {
+        width: 100%; /* Images occupent 100% de l'espace */
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .summary {
+        padding: 10px;
+    }
+
+    nav ul {
+        flex-direction: column; /* les élements passent en colonne */
+        padding: 0;
+    }
+
+    nav li {
+        margin-left: 0;
+        padding-top: 10px;
+        text-align: center;
+    }
+}
